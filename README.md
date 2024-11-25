@@ -10,23 +10,29 @@ This dashboard is ideal for:
 Hotel managers and revenue analysts.
 Hospitality businesses seeking to optimize profitability.
 Data enthusiasts exploring Power BI’s capabilities.
+
 🌟 Key Features
+
 🏨 Revenue Metrics
 Occupancy Rate Analysis: Identify trends across time periods and regions.
 Average Daily Rate (ADR): Track changes in room pricing over time.
 Revenue per Available Room (RevPAR): Monitor revenue efficiency.
+
 📊 Operational Performance
 Seasonal patterns impacting room bookings and revenue.
 Analysis of cancellations and their effects on profitability.
 Performance comparison across different property types and regions.
+
 👥 Customer Insights
 Customer Segmentation: Analyze by booking channels (e.g., direct, OTA, corporate).
 Loyalty Program Analysis: Measure repeat customer contributions.
 Demographic Insights: Understand guest preferences and behaviors.
+
 📈 Interactive Dashboards
 Filters for time, location, and room type for tailored views.
 Drill-through capabilities for in-depth analysis of specific regions or time periods.
 Visualizations including heatmaps, bar charts, and trend lines.
+
 🛠️ Tools and Technologies
 Visualization Tool: Power BI
 
