@@ -1,86 +1,79 @@
-🏨 Hospitality Revenue Analysis Dashboard
+# 🏥 Hospital Emergency Room Analysis Dashboard
 
-A visually appealing and interactive Power BI dashboard for analyzing revenue trends and optimizing operations in the hospitality industry.
+An interactive Power BI dashboard built to enhance operational efficiency, monitor emergency room (ER) performance, and support data-driven decision-making in healthcare environments.
 
-📝 Project Overview
-The Hospitality Revenue Analysis Dashboard is a dynamic Power BI solution designed to help hospitality businesses uncover actionable insights. It allows businesses to monitor key revenue metrics such as Occupancy Rate, ADR, and RevPAR, while also providing a detailed breakdown of customer demographics, booking trends, and seasonal performance.
+---
 
-This dashboard is ideal for:
+## 📝 Project Overview  
+The **Hospital Emergency Room Analysis Dashboard** is designed to help hospitals track and analyze **key ER metrics** such as patient flow, wait times, satisfaction, and referrals. This dashboard empowers **hospital staff, administrators, and stakeholders** to optimize service delivery, manage resources effectively, and improve patient care experiences.
 
-Hotel managers and revenue analysts.
+---
 
-Hospitality businesses seeking to optimize profitability.
+## 🌟 Key Features  
 
-Data enthusiasts exploring Power BI’s capabilities.
+### 👨‍⚕️ Daily Insights  
+- **Number of Patients**: Track daily ER visits and spot peak days or seasonal surges using **area sparklines**.  
+- **Average Wait Time**: Visualize daily wait times to identify delays and potential **bottlenecks**.  
+- **Patient Satisfaction Score**: Monitor service quality trends to improve the **patient experience**.  
+- **Department Referrals**: Discover referral patterns to specific departments and manage resource needs.
 
-🌟 Key Features
+---
 
-🏨 Revenue Metrics
+### 📍Dashboard will look like this: ❄️🥀
+![image](https://github.com/gauravlakshakar/Hospitality-Emergency-Room-Dashboard/blob/main/h2.PNG)
 
-Occupancy Rate Analysis: Identify trends across time periods and regions.
+![image](https://github.com/gauravlakshakar/Hospitality-Emergency-Room-Dashboard/blob/main/h3.PNG)
 
-Average Daily Rate (ADR): Track changes in room pricing over time.
+![image](https://github.com/gauravlakshakar/Hospitality-Emergency-Room-Dashboard/blob/main/h4.PNG)
 
-Revenue per Available Room (RevPAR): Monitor revenue efficiency.
+---
 
-📊 Operational Performance
+### 📆 Monthly Overview  
+- **Patient Admission Status**: Compare **admitted vs. non-admitted** patients.  
+- **Age Group Distribution**: Group patients by **10-year intervals** for targeted analysis.  
+- **Referral Trends**: Analyze department-wise referrals to highlight high-traffic areas.  
+- **Timeliness Metric**: Measure patients attended **within 30 minutes**.  
+- **Gender & Race Analysis**: Understand demographics using **gender and racial breakdowns**.  
+- **Visit Timing Analysis**: Explore patient volume by **day of the week** and **hour of the day**.
 
-Seasonal patterns impacting room bookings and revenue.
+---
 
-Analysis of cancellations and their effects on profitability.
+### 📅 Date-Range Analysis  
+- Generate customized **time period summaries** for broader insights.  
+- Use aggregated charts to view overall trends in **ER performance** and **resource allocation**.
 
-Performance comparison across different property types and regions.
+---
 
-👥 Customer Insights
+### 🧾 Patient-Level View  
+- Drill into detailed patient data with a comprehensive data grid.  
+- Fields include:  
+  - Patient ID  
+  - Full Name  
+  - Gender, Age, Race  
+  - Wait Time, Admission Date  
+  - Department Referral, Admission Status
 
-Customer Segmentation: Analyze by booking channels (e.g., direct, OTA, corporate).
+---
 
-Loyalty Program Analysis: Measure repeat customer contributions.
+## 🛠️ Tools and Technologies  
+- **Power BI** for interactive visualizations  
+- **Excel/CSV** datasets for development and testing  
+- Can be expanded with **SQL databases** or **cloud integrations**  
 
-Demographic Insights: Understand guest preferences and behaviors.
+---
 
-📈 Interactive Dashboards
+## 📈 Sample Metrics  
+- Total Patients per Day  
+- Average Wait Time per Day  
+- Average Satisfaction Score  
+- % of Patients Attended within 30 Minutes  
+- Daily Referrals by Department
 
-Filters for time, location, and room type for tailored views.
+---
 
-Drill-through capabilities for in-depth analysis of specific regions or time periods.
+## 🚀 Future Enhancements  
+- Add real-time hospital data feeds  
+- Predictive modeling for patient load and wait time  
+- Integrate Power Apps for quick form inputs and updates  
+- Mobile-friendly version of the dashboard  
 
-Visualizations including heatmaps, bar charts, and trend lines.
-
-🛠️ Tools and Technologies
-
-Visualization Tool: Power BI
-
-Data Sources:
-
-Sample datasets in CSV/Excel format
-
-SQL database integration for scalable use cases
-
-Cloud-based data connections (e.g., Azure, Google Sheets)
-
-Key Metrics Modeled in Power BI:
-
-Occupancy Rate = (Rooms Sold / Rooms Available) × 100
-
-ADR = Total Room Revenue / Rooms Sold
-
-RevPAR = Total Room Revenue / Rooms Available
-
-📊 Sample Datasets
-
-Bookings Dataset: Room types, booking dates, cancellation status, and sources.
-
-Revenue Dataset: Daily revenue by room type, location, and channel.
-
-Customer Dataset: Demographics, loyalty program data, and preferences.
-
-🏗️ Future Enhancements
-
-Add predictive analytics using Python or R scripts within Power BI.
-
-Integrate real-time data via APIs or live database connections.
-
-Expand KPIs to include dining, spa, and event revenue metrics.
-
-Develop mobile-responsive versions for easy access.
